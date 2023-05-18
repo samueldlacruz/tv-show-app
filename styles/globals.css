@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    body {
+        font-family: 'Open Sans', sans-serif;
+        @apply bg-gradient-to-b to-[#053f5a] from-[#02577a] bg-no-repeat h-full;
+    }
+}
+
+.swiper .swiper-initialized .swiper-horizontal .swiper-backface-hidden .mySwiper {
+    height: 100% !important;
+}
